@@ -8,8 +8,9 @@ const responseEvent = response => alert('Success!')
 
 const getURL = function(path, params) {
 	const url = new URL(path)
-	for(let key in params)
+	for(let key in params) 
 		url.searchParams.set(key, params[key])
+	
 	return url
 }
 

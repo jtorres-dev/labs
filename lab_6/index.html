@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	
+	<body>
+		<p>There is a number between 000-999.</p>
+		<p id ="attempts">You have 10 guesses.</p>
+		<span>Enter a Guess:</span>
+
+		<div>
+			<input type="button" value=" + " id="up-100s">
+			<input type="button" value=" + " id="up-10s">
+			<input type="button" value=" + " id="up-1s">
+		</div>
+
+
+		<div>
+			<input disable type="number" min="0" max="9" value="0" id="digit-100s">
+			<input disable type="number" min="0" max="9" value="0" id="digit-10s">
+			<input disable type="number" min="0" max="9" value="0" id="digit-1s">
+		</div>
+
+		
+		<div>
+			<input type="button" value=" - " id="down-100s">
+			<input type="button" value=" - " id="down-10s">
+			<input type="button" value=" - " id="down-1s">
+		</div>
+
+		<input type="button" value="Submit" id="guess-button">
+
+		<ul id="clue"></ul>
+
+		<script src="scripts/Guess.js"></script>
+		<script src="scripts/controllers.js"></script>
+		<script src="scripts/model.js"></script>
+		<script src="scripts/views.js"></script>
+	</body>
+</html>

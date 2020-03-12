@@ -1,0 +1,3 @@
+clientid=650186234170-1eris8hfkqcqd4ap6ccr7n5rdora91p5.apps.googleusercontent.com 
+clientsecret=9sGFdgLqoJT_iJ6y9V6yBq24
+apikey=AIzaSyCzO49ejexUPyQRxGInWer9gxNT5hSSv44
